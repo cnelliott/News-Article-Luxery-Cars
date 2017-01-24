@@ -1,0 +1,24 @@
+.col {
+	width: 50%
+	border-color: black;
+	display: block;
+	background-color: grey;
+	min-height: 50%;
+	box-sizing: border-box;
+	border: 1px solid black;
+	text: black;
+}
+
+.col.two{
+	float: left;
+	width: 50%
+	background-color: orange;
+	border: 2px solid black;
+}
+
+.col.three {
+	width:33.3333%;
+	float: left-right;
+	background-color: orange;
+	border: 1px solid black;
+}
